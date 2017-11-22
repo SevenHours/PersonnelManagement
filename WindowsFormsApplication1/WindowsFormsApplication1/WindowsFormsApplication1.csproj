@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddDepartment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDepartment.Designer.cs">
+      <DependentUpon>AddDepartment.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
